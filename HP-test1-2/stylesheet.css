@@ -1,0 +1,188 @@
+
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+.header-menu {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  
+}
+
+.header-title h1 {
+  display: flex;
+  margin: 10px 40px;
+  font-size: 45px;
+  font-family: serif;
+
+}
+
+.side-menu li{
+  display: inline-block;
+  margin: 30px;
+  font-family: 'Georgia';
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  color: rgb(238, 208, 208);
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+
+.side-menu li:hover {
+  letter-spacing: 2px;
+}
+
+.main-title {
+  font-family: 'Times New Roman';
+  font-size: 30px;
+  margin: 70px 0 60px 350px;
+}
+
+.ggmap {
+  filter: grayscale(100%);
+  transition: all  0.7s ease;
+}
+
+.ggmap:hover {
+  filter: grayscale(0%);
+}
+
+
+.main-contents {
+  display: flex;
+}
+
+.main-map {
+  margin: 50px 0 40px 230px;
+}
+
+.top-contnts {
+  margin-top: 50px;
+}
+
+.address {
+  margin: 70px;
+  font-family: serif;
+  font-size: 16px;
+}
+
+.mid-contents {
+  margin-top: 40px;
+}
+
+.mid-contents p {
+  font-size: 20px;
+  font-family: 'HiraKakuPro-W6';
+  color: rgb(201, 70, 70);
+}
+
+.calendar {
+  display: flex;
+  margin-top: 50px;
+}
+
+.day {
+  margin-left: 30px;
+}
+
+.time-calender {
+  display: flex;
+}
+
+.time {
+  margin-left: 30px;
+}
+
+.bottom {
+  display: flex;
+  height: 300px;
+  background-color: black;
+}
+
+.bottom-contact {
+  margin: 25px 230px;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+}
+
+.contact {
+  font-size: 20px;
+  padding-left: 25px;
+  color: white;
+}
+
+.contact-hi {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+
+.adress {
+  margin-left: 15px;
+  align-items: center;
+}
+
+.contact-mid {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.number {
+  margin-left: 13px;
+}
+
+.contact-low {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.mail {
+  margin-left: 15px;
+}
+
+.side-content {
+  margin: 25px 0;
+  color: white;
+}
+
+.side-content p {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  color: black;
+}
+
+.fa-facebook {
+  color:#3b5998;
+}
+
+.fa-instagram {
+  color:#e1306c;
+}
+
+.fa-twitter-square {
+  color:#1da1f2;
+}
